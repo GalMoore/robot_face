@@ -2,8 +2,8 @@
 all motor movements in one place
 
 ## Description 
-This node receives X data and outputs Y for the Z node. 
-I love :coffee: :pizza:, and :dancer:.
+Collection of ohbot movement scripts that are called from within the code as python3 subprocesses. 
+This is necessary because ROS works with python2 - so morotic functions can not be called directly in flexbe or ROS code.
 
 ### Nodes
 - node1: does this
