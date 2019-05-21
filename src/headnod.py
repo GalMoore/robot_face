@@ -4,7 +4,7 @@ from ohbot import ohbot
 
 print("this is what headnod got from os /sys argv[1]:", sys.argv[1])
 # close top lip
-first_arg = int(sys.argv[1])
+first_arg = float(sys.argv[1])
 # second_arg = int(sys.argv[2])
 ohbot.move(ohbot.HEADNOD,first_arg,1)
 
