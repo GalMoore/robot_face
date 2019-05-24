@@ -2,7 +2,7 @@
 import sys
 from ohbot import ohbot
 
-print("this is what headturn got from os /sys argv[1]:", sys.argv[1])
+print("headturn moving:", sys.argv[1])
 # close top lip
 first_arg = float(sys.argv[1])
 # second_arg = int(sys.argv[2])
