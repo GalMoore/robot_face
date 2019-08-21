@@ -24,7 +24,7 @@ class testHTTPServer_RequestHandler(BaseHTTPRequestHandler):
         motor_num = int(nums[0])
         motor_position = float(nums[1])
         speed = int(nums[2])
-        print("moving motors now with", nums)
+        # print("moving motors now with", nums)
         # print(motor_num)
         # print(motor_position)
 
