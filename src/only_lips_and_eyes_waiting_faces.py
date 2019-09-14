@@ -67,14 +67,14 @@ def centrlize_face():
 
 if __name__ == "__main__":
 
-	for i in range(30):
-		centrlize_face()
+	while(1==1):
+		# centrlize_face()
 
-		if i%10==0:
-			agree_nod(3)
+		# if i%10==0:
+		# 	agree_nod(1)
 
-		if i%2==0:
-			random_head_turn_nod()
+		# if i%2==0:
+		# 	random_head_turn_nod()
 
 		blink()
 		time.sleep(round(random.uniform(0.5,1.8),3))
@@ -82,26 +82,11 @@ if __name__ == "__main__":
 		eye_lid_tilt()
 		time.sleep(round(random.uniform(0.3,1.6),3))
 		slight_mouth_move()
-
-		if i==0:
-			shake_disagreement(4)
-
-		print("yo ",i)
+		time.sleep(round(random.uniform(0.3,0.8),3))
+		blink()
 
 
+		# if i==0:
+		# 	shake_disagreement(1)
 
-
-
-
-
-
-
-
-
-
-
-
-# instruction = message.format(1,3,5)
-# 127.0.0.1:9976/move?engine=1?x=1?y=2.2?speed=1.1
-# r = requests.get(url)
-# print(r.content)
+		print("yo ")
