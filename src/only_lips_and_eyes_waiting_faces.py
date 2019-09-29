@@ -68,25 +68,11 @@ def centrlize_face():
 if __name__ == "__main__":
 
 	while(1==1):
-		# centrlize_face()
-
-		# if i%10==0:
-		# 	agree_nod(1)
-
-		# if i%2==0:
-		# 	random_head_turn_nod()
-
 		blink()
 		time.sleep(round(random.uniform(0.5,1.8),3))
-
 		eye_lid_tilt()
 		time.sleep(round(random.uniform(0.3,1.6),3))
 		slight_mouth_move()
 		time.sleep(round(random.uniform(0.3,0.8),3))
 		blink()
-
-
-		# if i==0:
-		# 	shake_disagreement(1)
-
 		print("yo ")

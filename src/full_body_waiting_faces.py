@@ -4,7 +4,6 @@ import random
 import time
 from random import randrange
 
-
 message = "http://127.0.0.1:8081/motor={}?position={}?speed={}"
 
 def random_head_turn_nod():
